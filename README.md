@@ -34,7 +34,7 @@ python rag_math_eval.py         # runs full RAG eval, writes CSVs
 python one_question_test.py     # quick single-question check
 ```
 
-## 📊 Experimental Results
+## Experimental Results
 
 We compared several configurations across varying retrieval settings. The **OpenMath + RAG** configuration demonstrated state-of-the-art performance across all quality metrics.
 
@@ -53,3 +53,13 @@ We compared several configurations across varying retrieval settings. The **Open
 > * **Trade-offs:** While RAG increases latency (approx. +2s per generation), the performance gain in the `OpenMath + RAG` setup (Highest F1 and BLEU) justifies the computational cost for high-precision tasks.
 
 ---
+## Individual Contributions 
+• Niraj: Overall coordination and project management, timeline planning, and integration of all components into a single end-to-end pipeline.
+
+• Lipika: Data preparation and knowledge-base construction, including dataset cleaning, splitting, and creation of the fine-tune set and RAG knowledge base.
+
+• Siddharth: Model fine-tuning, implementing and tuning the supervised fine-tuning pipeline for the LLM.
+
+• Ankita: Retrieval and RAG component, designing and implementing the hybrid BM25 + dense retriever and constructing the RAG-style prompts.
+
+• Manish: Evaluation and reporting, implementing evaluation metrics, running experiments, analyzing results, and preparing the written report and presentation materials.
