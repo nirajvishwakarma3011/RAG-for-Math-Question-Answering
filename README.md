@@ -54,7 +54,7 @@ We compared several configurations across varying retrieval settings. The **Open
 
 ---
 ## Individual Contributions 
-• Niraj: Overall coordination and project management, timeline planning, and integration of all components into a single end-to-end pipeline.
+• Niraj: Overall coordination, analysis and project management, timeline planning, and integration of all components into a single end-to-end. 
 
 • Lipika: Data preparation and knowledge-base construction, including dataset cleaning, splitting, and creation of the fine-tune set and RAG knowledge base.
 
